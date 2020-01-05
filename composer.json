@@ -1,0 +1,12 @@
+{
+    "name": "haoquach/htmldom",
+    "type": "library",
+    "authors": [
+        {
+            "name": "haoquach",
+            "email": "quachvanhao@cmnd.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
