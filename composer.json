@@ -1,5 +1,5 @@
 {
-    "name": "haoquach/htmldom",
+    "name": "haoquach/kynkai-htmldom",
     "type": "library",
     "keywords": ["html","php","dom","node"],
     "authors": [
@@ -8,6 +8,15 @@
             "email": "quachvanhao@cmnd.vn"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "KynkaiHtmlDom\\":"src"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "require": {
+        "paquettg/php-html-parser": "dev-master"
+    }
 }
