@@ -1,6 +1,7 @@
 {
     "name": "haoquach/htmldom",
     "type": "library",
+    "keywords": ["html","php","dom","node"],
     "authors": [
         {
             "name": "haoquach",
